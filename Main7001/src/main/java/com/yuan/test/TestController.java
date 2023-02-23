@@ -16,6 +16,7 @@ public class TestController implements CommandLineRunner {
 	@Resource
 	private HelloService helloService;
 
+
 	@Override
 	public void run(String... args) throws Exception {
 		System.out.println(helloService.hello());
